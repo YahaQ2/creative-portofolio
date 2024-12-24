@@ -39,7 +39,7 @@ const AboutDetails = () => {
         >
           <img
             className="w-full h-auto"
-            src="https://github-readme-stats.vercel.app/api/top-langs?username=AliSabet81&theme=transparent&hide_border=true&title_color=5BBFFE&text_color=FFFFFF&icon_color=5BBFFE&text_bold=false"
+            src="https://github-readme-stats.vercel.app/api/top-langs?username=FERPUTRAA&theme=transparent&hide_border=true&title_color=5BBFFE&text_color=FFFFFF&icon_color=5BBFFE&text_bold=false"
             alt="FER PUTRA"
             loading="lazy"
           />
@@ -47,8 +47,8 @@ const AboutDetails = () => {
         <ItemLayout className={"col-span-full md:col-span-8 !p-0"}>
           <img
             className="w-full h-auto"
-            src="https://github-readme-stats.vercel.app/api?username=AliSabet81&theme=transparent&hide_border=true&title_color=5BBFFE&text_color=FFFFFF&icon_color=5BBFFE&text_bold=false"
-            alt="AliSabet"
+            src="https://github-readme-stats.vercel.app/api?username=FERPUTRAA&theme=transparent&hide_border=true&title_color=5BBFFE&text_color=FFFFFF&icon_color=5BBFFE&text_bold=false"
+            alt="FERPUTRA"
             loading="lazy"
           />
         </ItemLayout>
@@ -56,14 +56,14 @@ const AboutDetails = () => {
           <img
             className="w-full h-auto"
             src="https://skillicons.dev/icons?i=js,html,css,bootstrap,discord,express,git,github,linkedin,materialui,mongodb,nextjs,nodejs,npm,postman,react,stackoverflow,tailwind,ts,vite,vscode,yarn"
-            alt="AliSabet"
+            alt="FERPUTRA"
             loading="lazy"
           />
         </ItemLayout>
         <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
           <img
             className="w-full h-auto"
-            src="https://github-readme-streak-stats.herokuapp.com?user=AliSabet81&theme=dark&hide_border=true&type=png&background=EB545400&ring=5BBFFE&currStreakLabel=5BBFFE"
+            src="https://github-readme-streak-stats.herokuapp.com?user=FERPUTRA&theme=dark&hide_border=true&type=png&background=EB545400&ring=5BBFFE&currStreakLabel=5BBFFE"
             alt="FER PUTRA"
             loading="lazy"
           />
@@ -72,8 +72,8 @@ const AboutDetails = () => {
         <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
           <img
             className="w-full h-auto"
-            src="https://github-readme-stats.vercel.app/api/pin/?username=AliSabet81&repo=NextJs-Training&theme=transparent&hide_border=true&title_color=5BBFFE&text_color=FFFFFF&icon_color=5BBFFE&text_bold=false"
-            alt="AliSabet"
+            src="https://github-readme-stats.vercel.app/api/pin/?username=FERPUTRAA&repo=NextJs-Training&theme=transparent&hide_border=true&title_color=5BBFFE&text_color=FFFFFF&icon_color=5BBFFE&text_bold=false"
+            alt="FERPUTRA"
             loading="lazy"
           />
         </ItemLayout>
