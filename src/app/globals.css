@@ -55,3 +55,19 @@
     height: 250px; /* Lebih kecil untuk layar sangat kecil */
   }
 }
+
+
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.animate-blink span {
+  display: inline-block;
+  animation: blink 0.8s steps(2, start) infinite;
+}
