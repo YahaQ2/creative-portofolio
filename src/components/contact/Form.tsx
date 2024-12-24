@@ -71,7 +71,7 @@ const Form = () => {
   };
   const onSubmit = (data: FormData) => {
     const temlpateParams = {
-      to_name: "Ali Sabet",
+      to_name: "FER PUTRA",
       from_name: data.name,
       reply_to: data.email,
       message: data.message,
