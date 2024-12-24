@@ -39,7 +39,6 @@ function typeEffect(text, delay = 100) {
     }
   }, delay);
 }
-
 // Contoh penggunaan
 const message = "portofolio fer putra";
 typeEffect(message, 150); // Ketik dengan jeda 150ms per karakter
