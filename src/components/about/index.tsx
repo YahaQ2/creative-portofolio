@@ -64,7 +64,7 @@ const AboutDetails = () => {
           <img
             className="w-full h-auto"
             src="https://github-readme-streak-stats.herokuapp.com?user=AliSabet81&theme=dark&hide_border=true&type=png&background=EB545400&ring=5BBFFE&currStreakLabel=5BBFFE"
-            alt="AliSabet"
+            alt="FER PUTRA"
             loading="lazy"
           />
         </ItemLayout>
