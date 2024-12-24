@@ -28,6 +28,25 @@ export default function Home() {
   </p>
 </div>
 
+function typeEffect(text, delay = 100) {
+  let i = 0;
+  const interval = setInterval(() => {
+    process.stdout.write(text[i]); // Menulis karakter satu per satu
+    i++;
+    if (i >= text.length) {
+      clearInterval(interval); // Menghentikan animasi setelah selesai
+      process.stdout.write("\n"); // Baris baru setelah selesai mengetik
+    }
+  }, delay);
+}
+
+// Contoh penggunaan
+const message = "portofolio fer putra";
+typeEffect(message, 150); // Ketik dengan jeda 150ms per karakter
+
+
+
+
         {/* Render Model */}
         <RenderModel>
           <Harry />
