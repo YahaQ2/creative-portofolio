@@ -3,8 +3,41 @@ import bg from "../../public/background/home-background.png";
 import RenderModel from "@/components/RenderModel";
 import Navigation from "@/components/navigation";
 import Harry from "@/components/models/Harry";
+import { useState, useEffect } from "react";
+
+const texts = ["Hai, selamat datang!!", "* Portofolio *", "* Spotify *", "* Karya *"];
 
 export default function Home() {
+  const [currentText, setCurrentText] = useState(""); // Teks yang sedang diketik
+  const [textIndex, setTextIndex] = useState(0); // Indeks teks saat ini
+  const [isDeleting, setIsDeleting] = useState(false); // Apakah teks sedang dihapus
+  const typingSpeed = 100; // Kecepatan mengetik
+  const delay = 1000; // Waktu tunggu sebelum menghapus teks
+
+  useEffect(() => {
+    let timeout;
+    const handleTyping = () => {
+      const fullText = texts[textIndex];
+      if (!isDeleting) {
+        // Menambah karakter
+        setCurrentText((prev) => fullText.substring(0, prev.length + 1));
+        if (currentText === fullText) {
+          timeout = setTimeout(() => setIsDeleting(true), delay); // Tunggu sebelum hapus
+        }
+      } else {
+        // Menghapus karakter
+        setCurrentText((prev) => fullText.substring(0, prev.length - 1));
+        if (currentText === "") {
+          setIsDeleting(false);
+          setTextIndex((prev) => (prev + 1) % texts.length); // Ganti teks berikutnya
+        }
+      }
+    };
+
+    timeout = setTimeout(handleTyping, typingSpeed);
+    return () => clearTimeout(timeout); // Bersihkan timeout
+  }, [currentText, isDeleting, textIndex]);
+
   return (
     <main className="flex min-h-screen flex-col items-center justify-between relative">
       {/* Background Image */}
@@ -20,16 +53,14 @@ export default function Home() {
       {/* Navigation and Content */}
       <div className="w-full h-screen flex flex-col items-center justify-center">
         <Navigation />
-        
+
         {/* Welcome Text */}
-<div className="absolute top-20 text-center">
-  <p className="text-lg font-mono text-green-500 px-4 py-2 rounded">
-    Hai, selamat datang!!
-  </p>
-</div>
-
-
-
+        <div className="absolute top-20 text-center">
+          <p className="text-lg font-mono text-green-500 px-4 py-2 rounded animate-blink">
+            {currentText}
+            <span className="border-r-2 border-green-500"></span>
+          </p>
+        </div>
 
         {/* Render Model */}
         <RenderModel>
