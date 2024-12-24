@@ -96,7 +96,7 @@ export const BtnList: IBtnList[] = [
   },
   {
     label: "LinkedIn",
-    link: "https://www.linkedin.com/in/FERPUTRA",
+    link: "https://www.linkedin.com/in/fery-putra-35733a292",
     icon: "linkedin",
     newTab: true,
   },
