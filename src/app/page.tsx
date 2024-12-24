@@ -42,7 +42,7 @@ export default function Home() {
             href="https://linktr.ee/Ferputra"
             target="_blank"
             rel="noopener noreferrer"
-            className="px-6 py-3 bg-blue-500 text-white rounded-lg text-lg font-medium shadow hover:bg-blue-600 transition"
+            className="px-6 py-3 bg-gray-500 text-white rounded-lg text-lg font-medium shadow hover:bg-gray-600 transition"
           >
             Kunjungi Linktree Saya
           </a>
