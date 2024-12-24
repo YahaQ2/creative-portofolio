@@ -48,17 +48,17 @@ export const projectsData: IProjectsData[] = [
   },
   {
     id: 4,
-    name: "Shoppe",
+    name: "Solifess",
     description: "Mern Stack Shop",
     date: "2023-06-12",
-    demoLink: "https://github.com/AliSabet81/Shoppe",
+    demoLink: "https://github.com/FERPUTRAA/solifess",
   },
   {
     id: 5,
     name: "Aora",
     description: "React Native Training",
     date: "2024-04-15",
-    demoLink: "https://github.com/AliSabet81/React-native-crash-course",
+    demoLink: "https://github.com/FERPUTRAA/React-native-crash-course",
   },
   {
     id: 6,
@@ -72,7 +72,7 @@ export const projectsData: IProjectsData[] = [
     name: "3D portofolio",
     description: "This portofolio Project",
     date: "2024-04-26",
-    demoLink: "https://github.com/AliSabet81/creative-portofolio",
+    demoLink: "https://github.com/FERPUTRAA/creative-portofolio",
   },
 ];
 
