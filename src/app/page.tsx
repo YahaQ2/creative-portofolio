@@ -32,7 +32,12 @@ export default function Home() {
         <RenderModel>
           <Harry />
         </RenderModel>
- <div className="h-40"></div>
+
+        </div>
+      </div>
+      
+      
+       <div className="h-40"></div>
         {/* Embedded Link */}
         <div className="absolute bottom-10 w-full flex justify-center">
           <iframe
@@ -40,8 +45,6 @@ export default function Home() {
             className="w-[90%] h-96 border-2 border-gray-300 rounded-lg"
             title="Ferputra Linktree"
           ></iframe>
-        </div>
-      </div>
     </main>
   );
 }
