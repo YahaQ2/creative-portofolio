@@ -34,7 +34,7 @@ export default function About() {
       <div className="relative w-full h-screen flex flex-col items-center justify-center">
         <div className="absolute w-full flex flex-col items-center text-center top-[45%] md:top-[40%] left-1/2 -translate-y-1/2 -translate-x-1/2">
           <h1 className="font-bold text-4xl xs:text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-8xl text-accent">
-            Ali Sabet
+            FER PUTRA
           </h1>
           <p className="font-light text-foreground text-lg">
             Meet the nerd behind this portofolio
