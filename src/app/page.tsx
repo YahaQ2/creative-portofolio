@@ -23,7 +23,7 @@ export default function Home() {
         
         {/* Welcome Text */}
 <div className="absolute top-20 text-center">
-  <p className="text-lg font-mono text-green-500 bg-black px-4 py-2 rounded">
+  <p className="text-lg font-mono text-green-500 px-4 py-2 rounded">
     Hai, selamat datang!!
   </p>
 </div>
@@ -42,7 +42,7 @@ export default function Home() {
             href="https://linktr.ee/Ferputra"
             target="_blank"
             rel="noopener noreferrer"
-            className="px-6 py-3 bg-gray-500 text-white rounded-lg text-lg font-medium shadow hover:bg-gray-600 transition"
+            className="px-6 py-3 bg-black-300 text-white rounded-lg text-lg font-medium shadow hover:bg-black-300 transition"
           >
             Kunjungi Linktree Saya
           </a>
