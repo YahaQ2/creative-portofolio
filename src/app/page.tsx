@@ -33,16 +33,19 @@ export default function Home() {
           <Harry />
         </RenderModel>
 
-        {/* Space Below Character */}
-        <div className="h-20"></div>
+        {/* Space to Adjust Layout */}
+        <div className="h-40"></div>
 
-        {/* Embedded Link */}
+        {/* Linktree Button */}
         <div className="absolute bottom-10 w-full flex justify-center">
-          <iframe
-            src="https://linktr.ee/Ferputra"
-            className="embed-link"
-            title="Ferputra Linktree"
-          ></iframe>
+          <a
+            href="https://linktr.ee/Ferputra"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-6 py-3 bg-blue-500 text-white rounded-lg text-lg font-medium shadow hover:bg-blue-600 transition"
+          >
+            Kunjungi Linktree Saya
+          </a>
         </div>
       </div>
     </main>
