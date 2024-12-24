@@ -20,6 +20,9 @@ export default function Home() {
         <RenderModel>
           <Harry />
         </RenderModel>
+         <p className="font-light text-foreground text-lg">
+            Hai selamat datang!! 
+          </p>
       </div>
     </main>
   );
