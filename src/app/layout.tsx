@@ -8,7 +8,7 @@ import Sound from "@/components/Sound";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  title: "Ali Sabet",
+  title: "FER PUTRA PORTOFOLIO",
   description: "Front-End developer",
 };
 
