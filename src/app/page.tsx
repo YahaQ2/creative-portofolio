@@ -32,7 +32,7 @@ export default function Home() {
         <RenderModel>
           <Harry />
         </RenderModel>
-
+ <div className="h-40"></div>
         {/* Embedded Link */}
         <div className="absolute bottom-10 w-full flex justify-center">
           <iframe
