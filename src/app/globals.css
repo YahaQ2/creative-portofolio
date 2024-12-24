@@ -30,3 +30,28 @@
     transform: translate(100px, 100px);
   }
 }
+
+
+
+/* Default styling for iframe */
+.embed-link {
+  width: 90%;
+  height: 400px; /* Default height for desktop */
+  border: 2px solid #d1d5db; /* Border gray-300 */
+  border-radius: 8px;
+}
+
+/* Mobile styling */
+@media (max-width: 768px) {
+  .embed-link {
+    width: 95%; /* Lebih kecil untuk layar mobile */
+    height: 300px; /* Tinggi lebih pendek untuk layar kecil */
+  }
+}
+
+/* Extra small screen (optional) */
+@media (max-width: 480px) {
+  .embed-link {
+    height: 250px; /* Lebih kecil untuk layar sangat kecil */
+  }
+}
