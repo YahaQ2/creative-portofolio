@@ -40,7 +40,7 @@ const AboutDetails = () => {
           <img
             className="w-full h-auto"
             src="https://github-readme-stats.vercel.app/api/top-langs?username=AliSabet81&theme=transparent&hide_border=true&title_color=5BBFFE&text_color=FFFFFF&icon_color=5BBFFE&text_bold=false"
-            alt="AliSabet"
+            alt="FER PUTRA"
             loading="lazy"
           />
         </ItemLayout>
