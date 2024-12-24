@@ -8,9 +8,7 @@ export default function Harry(props: any) {
 
   const modelRef = useRef();
 
-  useFrame((state, delta, xsFrame) => {
-    (modelRef.current as any).position.y =
-      -2 + Math.sin(state.clock.elapsedTime) * 0.15;
+
       useFrame(() => {
     (modelRef.current as any).rotation.y -= 0.0007;
   });
