@@ -5,10 +5,9 @@ import Navigation from "@/components/navigation";
 import Harry from "@/components/models/Harry";
 
 export default function Home() {
-  return (         <p className="font-light text-foreground text-lg">
-            Hai selamat datang!! 
-          </p>
+  return (
     <main className="flex min-h-screen flex-col items-center justify-between relative">
+      {/* Background Image */}
       <Image
         src={bg}
         alt="background-image"
@@ -17,39 +16,31 @@ export default function Home() {
         sizes="100vw"
         className="-z-50 w-full h-full object-cover object-center opacity-40"
       />
-      <div className="w-full h-screen">
+
+      {/* Navigation and Content */}
+      <div className="w-full h-screen flex flex-col items-center justify-center">
         <Navigation />
+        
+        {/* Welcome Text */}
+        <div className="absolute top-20 text-center">
+          <p className="font-light text-foreground text-lg text-white">
+            Hai, selamat datang!!
+          </p>
+        </div>
+
+        {/* Render Model */}
         <RenderModel>
           <Harry />
         </RenderModel>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Linktree Ferputra</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: Arial, sans-serif;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      background-color: #f4f4f4;
-    }
-    iframe {
-      border: none;
-      width: 100%;
-      height: 100vh;
-    }
-  </style>
-</head>
-<body>
-  <iframe src="https://linktr.ee/Ferputra"></iframe>
-</body>
-</html>
+
+        {/* Embedded Link */}
+        <div className="absolute bottom-10 w-full flex justify-center">
+          <iframe
+            src="https://linktr.ee/Ferputra"
+            className="w-[90%] h-96 border-2 border-gray-300 rounded-lg"
+            title="Ferputra Linktree"
+          ></iframe>
+        </div>
       </div>
     </main>
   );
