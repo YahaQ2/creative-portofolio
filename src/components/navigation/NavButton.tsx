@@ -31,7 +31,7 @@ const getIcon = (icon: string) => {
       return <Linkedin className="w-full h-auto" strokeWidth={1.5} />;
     case "instagram":
       return <Instagram className="w-full h-auto" strokeWidth={1.5} />;
-    case "resume":
+    case "spotify":
       return <NotebookText className="w-full h-auto" strokeWidth={1.5} />;
     default:
       return <Home className="w-full h-auto" strokeWidth={1.5} />;
