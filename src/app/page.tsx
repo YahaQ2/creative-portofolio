@@ -33,18 +33,18 @@ export default function Home() {
           <Harry />
         </RenderModel>
 
-        </div>
-      </div>
-      
-      
-       <div className="h-40"></div>
+        {/* Space Below Character */}
+        <div className="h-20"></div>
+
         {/* Embedded Link */}
         <div className="absolute bottom-10 w-full flex justify-center">
           <iframe
             src="https://linktr.ee/Ferputra"
-            className="w-[90%] h-96 border-2 border-gray-300 rounded-lg"
+            className="embed-link"
             title="Ferputra Linktree"
           ></iframe>
+        </div>
+      </div>
     </main>
   );
 }
