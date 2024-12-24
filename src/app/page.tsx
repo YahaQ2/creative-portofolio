@@ -22,11 +22,11 @@ export default function Home() {
         <Navigation />
         
         {/* Welcome Text */}
-        <div className="absolute top-20 text-center">
-          <p className="font-light text-foreground text-lg text-white">
-            Hai, selamat datang!!
-          </p>
-        </div>
+<div className="absolute top-20 text-center">
+  <p className="text-lg font-mono text-green-500 bg-black px-4 py-2 rounded">
+    Hai, selamat datang!!
+  </p>
+</div>
 
         {/* Render Model */}
         <RenderModel>
