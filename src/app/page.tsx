@@ -5,7 +5,9 @@ import Navigation from "@/components/navigation";
 import Harry from "@/components/models/Harry";
 
 export default function Home() {
-  return (
+  return (         <p className="font-light text-foreground text-lg">
+            Hai selamat datang!! 
+          </p>
     <main className="flex min-h-screen flex-col items-center justify-between relative">
       <Image
         src={bg}
@@ -20,9 +22,7 @@ export default function Home() {
         <RenderModel>
           <Harry />
         </RenderModel>
-         <p className="font-light text-foreground text-lg">
-            Hai selamat datang!! 
-          </p>
+
       </div>
     </main>
   );
