@@ -90,26 +90,26 @@ export const BtnList: IBtnList[] = [
   { label: "Contact", link: "/contact", icon: "contact", newTab: false },
   {
     label: "Github",
-    link: "https://github.com/AliSabet81",
+    link: "https://github.com/FERPUTRAA",
     icon: "github",
     newTab: true,
   },
   {
     label: "LinkedIn",
-    link: "https://www.linkedin.com/in/ali-sabet-443227302",
+    link: "https://www.linkedin.com/in/FERPUTRA",
     icon: "linkedin",
     newTab: true,
   },
   {
     label: "Instagram",
-    link: "https://www.instagram.com/ali._sabet_",
+    link: "https://www.instagram.com/FER_.PUTRA",
     icon: "instagram",
     newTab: true,
   },
   {
-    label: "Resume",
-    link: "/resume.pdf",
-    icon: "resume",
+    label: "spotify",
+    link: "https://open.spotify.com/artist/7G7bxZuJpwJx1M96GMzBsH?si=rRHGuxZwQ8uxhlRyUgO6qQ",
+    icon: "spotify",
     newTab: true,
   },
 ];
